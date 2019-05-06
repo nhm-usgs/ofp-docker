@@ -1,0 +1,9 @@
+version: "3.2"
+services:
+  python:
+    build:
+      dockerfile: ./app/Dockerfile
+      context: ./
+    image: nhdusgs/ofp
+#hostname: ofp
+    ##    container_name: ofp
