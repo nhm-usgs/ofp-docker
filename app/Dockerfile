@@ -12,10 +12,10 @@ RUN conda update -n base conda -y && conda env update
 
 RUN wget --no-check-certificate -O master.zip "https://github.com/nhm-usgs/onhm-fetcher-parser/archive/master.zip"
 RUN unzip -d /code master.zip
-RUN set -x \
-	&& cd code/onhm-fetcher-parser-master/pkg \
-	&& pwd
+#RUN set -x \
+#	&& cd code/onhm-fetcher-parser-master/pkg \
+#	&& pwd
 
-#CMD ["python", "./code/onhm-fetcher-parser-master/pkg/onhm_fp_script.py"]
+CMD ["python", "./code/onhm-fetcher-parser-master/pkg/onhm_fp_script.py"]
 # and remain running
 CMD ["sleep", "infinity"]
