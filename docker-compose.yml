@@ -4,6 +4,6 @@ services:
     build:
       dockerfile: ./app/Dockerfile
       context: ./
-    image: nhdusgs/ofp
+    image: nhmusgs/ofp
 #hostname: ofp
     ##    container_name: ofp
