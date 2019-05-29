@@ -20,8 +20,9 @@ RUN cd code && \
     git clone --depth=1 https://github.com/nhm-usgs/onhm-fetcher-parser.git ofp \
     && cd ofp \
     && rm -rf .git \
-    && pwd \
     && pwd
+
+COPY Data code/ofp/Data
 #RUN cd code && \
 #    git pull
 #RUN set -x \
