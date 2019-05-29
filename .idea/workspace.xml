@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="14" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="782">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -60,16 +60,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2551" />
-    <option name="y" value="-9" />
-    <option name="width" value="2578" />
-    <option name="height" value="1408" />
+    <option name="x" value="2662" />
+    <option name="y" value="216" />
+    <option name="width" value="2255" />
+    <option name="height" value="1463" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,16 +78,10 @@
               <item name="ofp-docker" type="b2602c69:ProjectViewProjectNode" />
               <item name="ofp-docker" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ofp-docker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ofp-docker" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -121,17 +116,18 @@
       <workItem from="1557347421507" duration="5865000" />
       <workItem from="1557515746504" duration="3407000" />
       <workItem from="1557855331068" duration="3150000" />
+      <workItem from="1557958694562" duration="603000" />
+      <workItem from="1559157533512" duration="259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12422000" />
+    <option name="totallyTimeSpent" value="13284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2553" y="-7" width="2062" height="1126" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1986028" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20259482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -160,8 +156,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="14" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="782">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
         </state>
       </provider>
     </entry>

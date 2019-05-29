@@ -19,14 +19,17 @@ RUN git lfs install
 RUN cd code && \
     git clone --depth=1 https://github.com/nhm-usgs/onhm-fetcher-parser.git ofp \
     && cd ofp \
-    && rm -rf .git
+    && rm -rf .git \
+    && pwd \
+    && pwd
 #RUN cd code && \
 #    git pull
 #RUN set -x \
 #	&& cd code/onhm-fetcher-parser-master/pkg \
 #	&& pwd
-RUN cd code/ofp/pkg
+#RUN cd code/ofp/pkg
+WORKDIR /code/ofp/pkg
 
-CMD ["python", "./code/ofp/pkg/onhm_fp_script.py"]
+CMD ["python", "onhm_fp_script.py"]
 # and remain running
-CMD ["sleep", "infinity"]
+#CMD ["sleep", "infinity"]
