@@ -22,15 +22,13 @@ RUN cd code && \
     && rm -rf .git \
     && pwd
 
-COPY Data code/ofp/Data
-#RUN cd code && \
-#    git pull
-#RUN set -x \
-#	&& cd code/onhm-fetcher-parser-master/pkg \
-#	&& pwd
-#RUN cd code/ofp/pkg
+#RUN git clone https://github.com/nhm-usgs/nhm_hru_shapefiles.git code/ofp/Data
+RUN cd code/ofp && \
+    wget -m -nH --cut-dirs=5 --user='anonymous' ftp://ftpext.usgs.gov/pub/cr/co/lakewood/nhm_hru_shp
+
 WORKDIR /code/ofp/pkg
 
-CMD ["python", "onhm_fp_script.py"]
+#CMD ["python", "onhm_fp_script.py"]
+ENTRYPOINT["python", "onhm_fp_script.py"]
 # and remain running
 #CMD ["sleep", "infinity"]
