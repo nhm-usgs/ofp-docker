@@ -29,6 +29,6 @@ RUN cd code/ofp && \
 WORKDIR /code/ofp/pkg
 
 #CMD ["python", "onhm_fp_script.py"]
-ENTRYPOINT["python", "onhm_fp_script.py"]
+ENTRYPOINT ["python", "onhm_fp_script.py"]
 # and remain running
 #CMD ["sleep", "infinity"]
