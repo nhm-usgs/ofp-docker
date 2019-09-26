@@ -19,6 +19,7 @@ RUN git lfs install
 RUN cd code && \
     git clone --depth=1 https://github.com/nhm-usgs/onhm-fetcher-parser.git ofp \
     && cd ofp \
+    && git pull \
     && rm -rf .git \
     && pwd
 
